@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مستندات سیستم مشاور هوشمند کنکور PRO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        @import './font/fonts.css';
+        body {
+            font-family: 'Dana', serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f8fafc;
+        }
+        .neon-text {
+            text-shadow: 0 0 5px #3b82f6, 0 0 10px #3b82f6, 0 0 15px #3b82f6;
+        }
+        .gradient-card {
+            background: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+            border: 1px solid #334155;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+        }
+        .glow-hover:hover {
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+        }
+        .feature-icon {
+            background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+        }
+        code {
+            background: #1e293b;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- هدر نئونی -->
+    <header class="py-12 bg-gradient-to-r from-blue-900/30 to-sky-900/30 border-b border-sky-800/50">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-5xl font-bold mb-4 neon-text text-sky-400">مشاور هوشمند کنکور PRO</h1>
+            <p class="text-xl text-slate-300 max-w-3xl mx-auto">
+                سیستم پیشرفته تحلیل نقاط ضعف و برنامه‌ریزی مطالعاتی با هوش مصنوعی
+            </p>
+            <div class="mt-8 flex justify-center space-x-4 space-x-reverse">
+                <a href="#installation" class="px-6 py-3 bg-sky-600 hover:bg-sky-700 rounded-lg font-medium transition-all duration-300 glow-hover">
+                    <i class="fas fa-download ml-2"></i>نصب و راه‌اندازی
+                </a>
+                <a href="#features" class="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg font-medium transition-all duration-300 glow-hover">
+                    <i class="fas fa-star ml-2"></i>ویژگی‌ها
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- بخش معرفی -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="gradient-card rounded-2xl p-8 mb-12">
+                <h2 class="text-3xl font-bold mb-6 text-sky-400 flex items-center">
+                    <i class="fas fa-robot ml-3"></i>
+                    <span>معرفی سیستم</span>
+                </h2>
+                <p class="text-slate-300 mb-6 leading-relaxed">
+                    سیستم مشاور هوشمند کنکور PRO یک پلتفرم تحلیلی پیشرفته است که با استفاده از الگوریتم‌های یادگیری ماشین و بهینه‌سازی، نقاط ضعف دانش‌آموزان را شناسایی کرده و برنامه‌ای شخصی‌سازی شده برای بهبود عملکرد تحصیلی ارائه می‌دهد.
+                </p>
+                <div class="grid md:grid-cols-3 gap-6 mt-8">
+                    <div class="gradient-card rounded-xl p-6 glow-hover">
+                        <div class="feature-icon w-14 h-14 rounded-full flex items-center justify-center mb-4">
+                            <i class="fas fa-brain text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">هوش مصنوعی پیشرفته</h3>
+                        <p class="text-slate-400">استفاده از مدل‌های Ensemble ترکیبی برای دقت بالاتر</p>
+                    </div>
+                    <div class="gradient-card rounded-xl p-6 glow-hover">
+                        <div class="feature-icon w-14 h-14 rounded-full flex items-center justify-center mb-4">
+                            <i class="fas fa-chart-line text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">تحلیل‌های هوشمند</h3>
+                        <p class="text-slate-400">شناسایی خودکار نقاط ضعف و اولویت‌بندی مباحث</p>
+                    </div>
+                    <div class="gradient-card rounded-xl p-6 glow-hover">
+                        <div class="feature-icon w-14 h-14 rounded-full flex items-center justify-center mb-4">
+                            <i class="fas fa-calendar-alt text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">برنامه‌ریزی بهینه</h3>
+                        <p class="text-slate-400">تولید برنامه مطالعاتی شخصی‌سازی شده با الگوریتم ژنتیک</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش نصب و راه‌اندازی -->
+    <section id="installation" class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="gradient-card rounded-2xl p-8">
+                <h2 class="text-3xl font-bold mb-6 text-sky-400 flex items-center">
+                    <i class="fas fa-download ml-3"></i>
+                    <span>نصب و راه‌اندازی</span>
+                </h2>
+                
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold mb-4 text-purple-400 border-b border-purple-800 pb-2">پیش‌نیازها</h3>
+                    <ul class="space-y-3 text-slate-300">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-emerald-400 mt-1 ml-2"></i>
+                            <span>Python 3.8 یا بالاتر</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-emerald-400 mt-1 ml-2"></i>
+                            <span>pip (آخرین نسخه)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-emerald-400 mt-1 ml-2"></i>
+                            <span>سیستم عامل ویندوز/لینوکس/مک</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold mb-4 text-purple-400 border-b border-purple-800 pb-2">نصب کتابخانه‌ها</h3>
+                    <p class="text-slate-300 mb-4">با استفاده از pip تمام کتابخانه‌های مورد نیاز را نصب کنید:</p>
+                    <div class="bg-gray-900 rounded-lg p-4 mb-4 overflow-x-auto">
+                        <code class="text-green-400">
+                            pip install streamlit pandas numpy plotly scikit-learn xgboost lightgbm catboost geneticalgorithm joblib sqlite3
+                        </code>
+                    </div>
+                    <p class="text-slate-400 text-sm">
+                        توجه: برای افزایش سرعت می‌توانید از فایل requirements.txt استفاده کنید:
+                    </p>
+                    <div class="bg-gray-900 rounded-lg p-4 overflow-x-auto">
+                        <code class="text-green-400">
+                            pip install -r requirements.txt
+                        </code>
+                    </div>
+                </div>
+                
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold mb-4 text-purple-400 border-b border-purple-800 pb-2">راه‌اندازی سیستم</h3>
+                    <p class="text-slate-300 mb-4">پس از نصب کتابخانه‌ها، برنامه را با دستور زیر اجرا کنید:</p>
+                    <div class="bg-gray-900 rounded-lg p-4 mb-4 overflow-x-auto">
+                        <code class="text-green-400">
+                            streamlit run کنکور_پرو.py
+                        </code>
+                    </div>
+                    <p class="text-slate-300">
+                        به طور پیش‌فرض، برنامه در آدرس <code class="text-amber-400">http://localhost:8501</code> قابل دسترسی خواهد بود.
+                    </p>
+                </div>
+                
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold mb-4 text-purple-400 border-b border-purple-800 pb-2">پیکربندی اولیه</h3>
+                    <p class="text-slate-300 mb-4">برای تنظیمات اولیه سیستم:</p>
+                    <ol class="list-decimal list-inside space-y-3 text-slate-300">
+                        <li>در صفحه اصلی، از نوار کناری یک دانش‌آموز جدید ثبت کنید</li>
+                        <li>داده‌های آزمون‌ها را وارد کنید یا از دکمه "بارگذاری داده‌های نمونه" استفاده نمایید</li>
+                        <li>مدل هوش مصنوعی را با کلیک روی دکمه "آموزش مدل جدید" آموزش دهید</li>
+                        <li>از تب‌های مختلف برای تحلیل داده‌ها و دریافت برنامه مطالعاتی استفاده کنید</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش ویژگی‌ها -->
+    <section id="features" class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="gradient-card rounded-2xl p-8">
+                <h2 class="text-3xl font-bold mb-6 text-sky-400 flex items-center">
+                    <i class="fas fa-star ml-3"></i>
+                    <span>ویژگی‌های کلیدی</span>
+                </h2>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="gradient-card rounded-xl p-6 glow-hover">
+                        <h3 class="text-xl font-bold mb-3 text-emerald-400 flex items-center">
+                            <i class="fas fa-user-graduate ml-2"></i>
+                            مدیریت دانش‌آموزان
+                        </h3>
+                        <ul class="space-y-2 text-slate-300">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-400 text-xs mt-1.5 ml-2"></i>
+                                <span>ثبت اطلاعات کامل دانش‌آموزان شامل نام، رشته و هدف تحصیلی</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-400 text-xs mt-1.5 ml-2"></i>
+                                <span>سیستم ذخیره‌سازی داده‌ها در پایگاه داده SQLite</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-400 text-xs mt-1.5 ml-2"></i>
+                                <span>امکان تولید داده‌های نمونه برای تست سیستم</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="gradient-card rounded-xl p-6 glow-hover">
+                        <h3 class="text-xl font-bold mb-3 text-emerald-400 flex items-center">
+                            <i class="fas fa-brain ml-2"></i>
+                            مدل‌های هوش مصنوعی
+                        </h3>
+                        <ul class="space-y-2 text-slate-300">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-400 text-xs mt-1.5 ml-2"></i>
+                                <span>سه مدل پیشرفته XGBoost، LightGBM و CatBoost</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-400 text-xs mt-1.5 ml-2"></i>
+                                <span>مدل Ensemble ترکیبی برای دقت بالاتر</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-400 text-xs mt-1.5 ml-2"></i>
+                                <span>امکان تنظیم آستانه تشخیص ضعف به صورت دستی</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="gradient-card rounded-xl p-6 glow-hover">
+                        <h3 class="text-xl font-bold mb-3 text-emerald-400 flex items-center">
+                            <i class="fas fa-chart-pie ml-2"></i>
+                            تحلیل و گزارش‌دهی
+                        </h3>
+                        <ul class="space-y-2 text-slate-300">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-400 text-xs mt-1.5 ml-2"></i>
+                                <span>نمودارهای تعاملی با Plotly برای نمایش داده‌ها</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-400 text-xs mt-1.5 ml-2"></i>
+                                <span>گزارش‌های طبقه‌بندی کامل (Classification Report)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-400 text-xs mt-1.5 ml-2"></i>
+                                <span>تحلیل روند پیشرفت در طول زمان</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="gradient-card rounded-xl p-6 glow-hover">
+                        <h3 class="text-xl font-bold mb-3 text-emerald-400 flex items-center">
+                            <i class="fas fa-calendar-check ml-2"></i>
+                            برنامه‌ریزی مطالعاتی
+                        </h3>
+                        <ul class="space-y-2 text-slate-300">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-400 text-xs mt-1.5 ml-2"></i>
+                                <span>الگوریتم ژنتیک برای بهینه‌سازی زمان مطالعه</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-400 text-xs mt-1.5 ml-2"></i>
+                                <span>امکان تنظیم کل ساعات مطالعه هفتگی</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-400 text-xs mt-1.5 ml-2"></i>
+                                <span>راهکارهای اختصاصی برای هر نوع خطا</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش معماری سیستم -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="gradient-card rounded-2xl p-8">
+                <h2 class="text-3xl font-bold mb-6 text-sky-400 flex items-center">
+                    <i class="fas fa-project-diagram ml-3"></i>
+                    <span>معماری سیستم</span>
+                </h2>
+                
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold mb-4 text-purple-400 border-b border-purple-800 pb-2">نمودار معماری</h3>
+                    <div class="bg-gray-900 rounded-xl p-6 flex justify-center">
+                        <div class="text-center">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                                <div class="p-4 border-2 border-sky-500 rounded-lg">
+                                    <i class="fas fa-database text-4xl text-sky-400 mb-3"></i>
+                                    <h4 class="font-bold text-lg">لایه داده</h4>
+                                    <p class="text-slate-400 text-sm">SQLite Database</p>
+                                </div>
+                                <div class="p-4 border-2 border-purple-500 rounded-lg">
+                                    <i class="fas fa-cogs text-4xl text-purple-400 mb-3"></i>
+                                    <h4 class="font-bold text-lg">لایه پردازش</h4>
+                                    <p class="text-slate-400 text-sm">Python & ML Models</p>
+                                </div>
+                                <div class="p-4 border-2 border-emerald-500 rounded-lg">
+                                    <i class="fas fa-desktop text-4xl text-emerald-400 mb-3"></i>
+                                    <h4 class="font-bold text-lg">لایه نمایش</h4>
+                                    <p class="text-slate-400 text-sm">Streamlit UI</p>
+                                </div>
+                            </div>
+                            <div class="text-slate-400 text-sm">
+                                <p>داده‌ها از طریق رابط کاربری وارد سیستم شده و در پایگاه داده ذخیره می‌شوند</p>
+                                <p class="my-2"><i class="fas fa-arrow-down"></i></p>
+                                <p>مدل‌های هوش مصنوعی داده‌ها را پردازش و تحلیل می‌کنند</p>
+                                <p class="my-2"><i class="fas fa-arrow-down"></i></p>
+                                <p>نتایج به صورت بصری و تعاملی در رابط کاربری نمایش داده می‌شوند</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold mb-4 text-purple-400 border-b border-purple-800 pb-2">گردش کار سیستم</h3>
+                    <ol class="list-decimal list-inside space-y-4 text-slate-300">
+                        <li class="p-3 bg-gray-900/50 rounded-lg">
+                            <span class="font-bold">ورود داده‌ها:</span> نمرات آزمون‌ها، زمان مطالعه و اطلاعات دانش‌آموز وارد سیستم می‌شود
+                        </li>
+                        <li class="p-3 bg-gray-900/50 rounded-lg">
+                            <span class="font-bold">پیش‌پردازش:</span> داده‌ها کدگذاری و نرمال‌سازی می‌شوند
+                        </li>
+                        <li class="p-3 bg-gray-900/50 rounded-lg">
+                            <span class="font-bold">آموزش مدل:</span> مدل‌های یادگیری ماشین با داده‌ها آموزش می‌بینند
+                        </li>
+                        <li class="p-3 bg-gray-900/50 rounded-lg">
+                            <span class="font-bold">تحلیل نقاط ضعف:</span> مدل‌ها نقاط ضعف را شناسایی و اولویت‌بندی می‌کنند
+                        </li>
+                        <li class="p-3 bg-gray-900/50 rounded-lg">
+                            <span class="font-bold">بهینه‌سازی برنامه:</span> الگوریتم ژنتیک زمان مطالعه را بین مباحث توزیع می‌کند
+                        </li>
+                        <li class="p-3 bg-gray-900/50 rounded-lg">
+                            <span class="font-bold">نمایش نتایج:</span> گزارش‌ها و برنامه‌ها به صورت بصری ارائه می‌شوند
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش راهنمای استفاده -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="gradient-card rounded-2xl p-8">
+                <h2 class="text-3xl font-bold mb-6 text-sky-400 flex items-center">
+                    <i class="fas fa-question-circle ml-3"></i>
+                    <span>راهنمای استفاده</span>
+                </h2>
+                
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold mb-4 text-purple-400 border-b border-purple-800 pb-2">تب‌های اصلی سیستم</h3>
+                    
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="gradient-card rounded-xl p-6">
+                            <h4 class="text-lg font-bold mb-3 text-amber-400 flex items-center">
+                                <i class="fas fa-chart-bar ml-2"></i>
+                                تحلیل کلی
+                            </h4>
+                            <ul class="space-y-2 text-slate-300">
+                                <li class="flex items-start">
+                                    <i class="fas fa-circle text-xs mt-1.5 ml-2 text-amber-400"></i>
+                                    <span>نمایش توزیع نمرات در درس‌های مختلف</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-circle text-xs mt-1.5 ml-2 text-amber-400"></i>
+                                    <span>تحلیل بازدهی مطالعاتی (نمره به ازای ساعت مطالعه)</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-circle text-xs mt-1.5 ml-2 text-amber-400"></i>
+                                    <span>نمایش نقاط ضعف بر اساس درس و مبحث</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="gradient-card rounded-xl p-6">
+                            <h4 class="text-lg font-bold mb-3 text-amber-400 flex items-center">
+                                <i class="fas fa-calendar-alt ml-2"></i>
+                                برنامه مطالعاتی
+                            </h4>
+                            <ul class="space-y-2 text-slate-300">
+                                <li class="flex items-start">
+                                    <i class="fas fa-circle text-xs mt-1.5 ml-2 text-amber-400"></i>
+                                    <span>تولید برنامه بهینه با الگوریتم ژنتیک</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-circle text-xs mt-1.5 ml-2 text-amber-400"></i>
+                                    <span>امکان تنظیم کل ساعات مطالعه هفتگی</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-circle text-xs mt-1.5 ml-2 text-amber-400"></i>
+                                    <span>راهکارهای اختصاصی برای هر مبحث</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="gradient-card rounded-xl p-6">
+                            <h4 class="text-lg font-bold mb-3 text-amber-400 flex items-center">
+                                <i class="fas fa-chart-line ml-2"></i>
+                                پیشرفت تحصیلی
+                            </h4>
+                            <ul class="space-y-2 text-slate-300">
+                                <li class="flex items-start">
+                                    <i class="fas fa-circle text-xs mt-1.5 ml-2 text-amber-400"></i>
+                                    <span>نمایش روند تغییرات نمرات در طول زمان</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-circle text-xs mt-1.5 ml-2 text-amber-400"></i>
+                                    <span>تحلیل توزیع نمرات در درس‌های مختلف</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-circle text-xs mt-1.5 ml-2 text-amber-400"></i>
+                                    <span>بررسی توزیع خطاها و زمان مطالعه</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="gradient-card rounded-xl p-6">
+                            <h4 class="text-lg font-bold mb-3 text-amber-400 flex items-center">
+                                <i class="fas fa-cog ml-2"></i>
+                                تنظیمات پیشرفته
+                            </h4>
+                            <ul class="space-y-2 text-slate-300">
+                                <li class="flex items-start">
+                                    <i class="fas fa-circle text-xs mt-1.5 ml-2 text-amber-400"></i>
+                                    <span>مدیریت و دانلود داده‌ها</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-circle text-xs mt-1.5 ml-2 text-amber-400"></i>
+                                    <span>مشاهده تاریخچه آموزش مدل‌ها</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-circle text-xs mt-1.5 ml-2 text-amber-400"></i>
+                                    <span>بررسی برنامه‌های مطالعاتی قبلی</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold mb-4 text-purple-400 border-b border-purple-800 pb-2">نکات مهم</h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="gradient-card rounded-xl p-6">
+                            <h4 class="text-lg font-bold mb-3 text-rose-400 flex items-center">
+                                <i class="fas fa-exclamation-triangle ml-2"></i>
+                                حداقل داده مورد نیاز
+                            </h4>
+                            <p class="text-slate-300">
+                                برای عملکرد مناسب سیستم، حداقل به 10 نمونه داده برای هر دانش‌آموز نیاز است. در صورت نداشتن داده کافی می‌توانید از دکمه "بارگذاری داده‌های نمونه" استفاده کنید.
+                            </p>
+                        </div>
+                        
+                        <div class="gradient-card rounded-xl p-6">
+                            <h4 class="text-lg font-bold mb-3 text-rose-400 flex items-center">
+                                <i class="fas fa-sync-alt ml-2"></i>
+                                به‌روزرسانی مدل
+                            </h4>
+                            <p class="text-slate-300">
+                                پس از هر بار ورود داده‌های جدید، بهتر است مدل را مجدداً آموزش دهید تا تحلیل‌ها با آخرین اطلاعات به‌روز شوند.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- پاورقی -->
+    <footer class="py-12 border-t border-slate-800 bg-gradient-to-r from-blue-900/20 to-sky-900/20">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-2xl font-bold mb-6 text-sky-400">مشاور هوشمند کنکور PRO</h3>
+            <p class="text-slate-400 max-w-2xl mx-auto mb-8">
+                سیستم پیشرفته تحلیل نقاط ضعف و برنامه‌ریزی مطالعاتی با استفاده از آخرین تکنیک‌های هوش مصنوعی و بهینه‌سازی
+            </p>
+            <div class="flex justify-center space-x-6 space-x-reverse mb-8">
+                <a href="#" class="text-slate-400 hover:text-sky-400 transition-colors">
+                    <i class="fab fa-github text-2xl"></i>
+                </a>
+                <a href="#" class="text-slate-400 hover:text-sky-400 transition-colors">
+                    <i class="fab fa-telegram text-2xl"></i>
+                </a>
+                <a href="#" class="text-slate-400 hover:text-sky-400 transition-colors">
+                    <i class="fab fa-linkedin text-2xl"></i>
+                </a>
+            </div>
+            <p class="text-slate-500 text-sm">
+                © 2025 تمام حقوق محفوظ است. نسخه 1.0.0
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

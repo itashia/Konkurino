@@ -1,0 +1,15 @@
+streamlit
+pandas
+numpy
+plotly
+xgboost
+lightgbm
+catboost
+geneticalgorithm
+joblib
+scikit-learn
+psycopg2-binary
+boto3
+python-dateutil
+pytz
+streamlit-aggrid
